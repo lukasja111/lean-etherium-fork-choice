@@ -1,11 +1,12 @@
-# lean-etherium-fork-choice
-Lean-Ethereum client-side fork-choice implimentation.
+# Lean-Ethereum Fork-Choice
 
+Lean-Ethereum client-side fork-choice implementation.
 
-Basic fork-choice implementation rewritten from Lean-Ethereum python.
+This is a basic fork-choice implementation rewritten from Lean-Ethereum Python.
 
-TO-DO:
--- Implement a function which would check whether the block is within Justifable window
--- Add more complex login in fn on_attestation currently function assumes that votes are always valid, need to implement a function which would check it.
--- Add testing
--- Merge with first teams code and try to integrate our fork-choice implementation with their modules.
+## TO-DO
+- [ ] Implement a function to check whether the block is within a justifiable window  
+- [ ] Add more complex logic in `fn on_attestation` (currently assumes that votes are always valid)  
+- [ ] Implement a function to validate votes  
+- [ ] Add testing  
+- [ ] Merge with the first team’s code and try to integrate our fork-choice implementation with their modules  
